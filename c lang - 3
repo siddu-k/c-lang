@@ -3,7 +3,19 @@
 //Expected Output:
 //The reverse of XML is LMX
 
-//code//
+//code
 
 #include <stdio.h>
 int main ()
+{
+
+
+  char a = 'X' ;
+   char b = 'M' ;
+   char c = 'L' ;
+ 
+  printf ( "%c%c%C" , c, b, a) ;
+  return 0 ;
+
+}
+  
